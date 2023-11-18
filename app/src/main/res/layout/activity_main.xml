@@ -91,12 +91,12 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/ic_baseline_calculate_24"/>
+                        android:src="@drawable/ic_baseline_add_chart_24"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calculate Zakat"
+                        android:text="Zakat Chart"
                         android:textStyle="bold"
                         android:textSize="16sp"/>
 
@@ -138,12 +138,12 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/ic_baseline_calculate_24"/>
+                        android:src="@drawable/ic_baseline_low_ind_24"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calculate Zakat"
+                        android:text="Zakat Lows"
                         android:textStyle="bold"
                         android:textSize="16sp"/>
 
@@ -173,12 +173,12 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/ic_baseline_calculate_24"/>
+                        android:src="@drawable/ic_baseline_auto_stories_24"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calculate Zakat"
+                        android:text="Learn About Zakat"
                         android:textStyle="bold"
                         android:textSize="16sp"/>
 
@@ -220,12 +220,12 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/ic_baseline_calculate_24"/>
+                        android:src="@drawable/ic_baseline_menu_book_24"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calculate Zakat"
+                        android:text="Learn Nisab"
                         android:textStyle="bold"
                         android:textSize="16sp"/>
 
@@ -255,12 +255,12 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/ic_baseline_calculate_24"/>
+                        android:src="@drawable/ic_baseline_assignment_24"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Calculate Zakat"
+                        android:text="Zakat Ruls"
                         android:textStyle="bold"
                         android:textSize="16sp"/>
 
