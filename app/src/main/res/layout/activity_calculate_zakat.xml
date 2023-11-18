@@ -7,10 +7,127 @@
     tools:context=".CalculateZakatActivity"
     android:orientation="vertical"
     android:background="@color/white"
+    android:padding="10dp"
     >
 
+    <!-- Top Titel-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/purple_500"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="Calculate Zakat (Personal)"/>
+
+    </LinearLayout>
+
+    <!-- Calculate Container-->
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:scrollbarStyle="insideInset">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
 
 
+            <!-- Main Item Layout 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:background="@color/item_primary"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="CASH AMOUNT:"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_primary"
+                    android:textSize="17sp"/>
+
+                <!-- input cash -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="CASH AMOUNT:"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/text_primary"
+                        android:textSize="17sp"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:inputType="number"
+                        android:gravity="center"
+                        android:hint="0.00$"
+                        android:textColor="@color/text_primary"/>
+
+                </LinearLayout>
+
+                <!-- input bank -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="BANK CASH AMOUNT:"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_primary"
+                        android:textSize="17sp"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:inputType="number"
+                        android:gravity="center"
+                        android:hint="0.00$"
+                        android:textColor="@color/text_primary"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 
 

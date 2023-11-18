@@ -11,6 +11,9 @@
             <!--Custom Color-->
 
     <color name="bg_primary">#F4F3F1</color>
+    <color name="item_primary">#F0ECED</color>
+    <color name="text_primary">#848082</color>
+
 
 
 </resources>
